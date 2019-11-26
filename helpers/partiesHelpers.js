@@ -1,7 +1,7 @@
 const db = require("../data/dbConfig");
 
 const addParties = project => {
-  return db("parties").insert(project);
+  return db("parties").insert(project, "id");
 };
 
 const getParties = () => {

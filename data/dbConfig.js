@@ -5,3 +5,8 @@ const knexConfig = require('../knexfile.js');
 
 const env = secrets.env
 module.exports = knex(knexConfig[env])
+
+
+
+
+
